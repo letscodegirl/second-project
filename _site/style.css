@@ -1,8 +1,14 @@
 /* Our Services */
 
+* {
+  padding: 0;
+  marging: 0;
+  box-sizing: border-box;
+}
+
 .hover-container {
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
   }
 
 .hover-overlay {
@@ -53,6 +59,15 @@ footer nav a {
 .bg-contact_image {
     background-image: url("images/minimal-12.jpg");
 }
+
+.img {
+  max-width: 100%;
+}
+
+.logo {
+  max-width: 70%;
+}
+
 
 /* Contact */
 input, textarea {

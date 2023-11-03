@@ -246,6 +246,25 @@
                     </div>
                 </div>
             </div>
+
+
+
+            {% for item in hospital_items %}
+            <div class="border border-stone-900">
+                <div class="hover-container" style="background-image:url('{{ item.image_path }}')">
+                    <div class="hover-overlay">
+                        <div class="text-center hover-inner">
+                            <h3>{{ item.title }}</h3>
+                            <p>{{ item.description }}</p>
+                            <a href="{{ item.page_link }}">링크 텍스트</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+
+
         </div>
         <div class="p-8 uppercase">
             <a class="p-1 px-3 border border-black" href="">Sign Up</a>
