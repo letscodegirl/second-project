@@ -1,3 +1,10 @@
+---
+layout: default
+
+---
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -156,7 +163,7 @@
             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quos voluptatum dolores hic aspernatur ipsam provident, delectus debitis iste recusandae perferendis fugit dicta reprehenderit minima eius voluptatem alias ex odit?</p>
         </div>
         <div class="grid gap-4 py-4 md:grid-cols-3">
-            <div class="border border-stone-900">
+            <!-- <div class="border border-stone-900">
                 <div class="hover-container" style="background-image:url('/images/1\ BSthebody.png')">
                     <div class="hover-overlay">
                         <div class="text-center hover-inner">
@@ -245,11 +252,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
 
-            {% for item in page.hospital_items %}
+            {% for item in site.intro %}
             <div class="border border-stone-900">
                 <div class="hover-container" style="background-image:url('{{ item.image_path }}')">
                     <div class="hover-overlay">
